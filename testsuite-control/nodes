@@ -1,0 +1,10 @@
+# Server node
+node          server
+repository    ${CHANNEL_SLENKINS_SERVER}
+install       tests-openvpn-tests-server
+
+
+# Client node
+node          client
+repository    ${CHANNEL_SLENKINS_CLIENT}
+install       tests-openvpn-tests-client

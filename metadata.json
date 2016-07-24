@@ -1,0 +1,16 @@
+{
+  "name": "tests-openvpn",
+  "summary": "Test suite for openvpn",
+  "description": "SLEnkins test suite for openvpn SSL Virtual Private Network software.",
+  "status": "ready",
+  "maintainer": ["Dario Maiocchi <dmaiocchi@suse.com>"],
+  "rpm": ["tests-openvpn", "tests-openvpn-tests-client", "tests-openvpn-tests-control", "tests-openvpn-tests-server"],
+  "arch": ["noarch"],
+  "product": "openvpn",
+  "fate": null,
+  "bnc": null,
+  "updated_at": "2016-04-05 14:12:00 UTC",
+  "tags": ["slenkins"],
+  "nodes": ["client", "server"],
+  "incompatible": []
+}

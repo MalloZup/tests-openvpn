@@ -1,8 +1,10 @@
-## openvpn-testsuite, version 1 dmaiocchi@suse.com
+## openvpn-testsuite
 
-##################### INTRODUCTION, Testsuite archichteture ########################################
-openvpn
-we test 3 scenarios:
+Author: Dario Maiocchi dmaiocchi@suse.com
+
+
+Testcases/scenarios:
+
 1) basic tunnel with secret key 
 2) RSA/CA tunnel 
 3) IP6 RSA/CA tunnel 
@@ -32,5 +34,4 @@ TODO:
 
 * other adv. configuration ( like fallback server)
 
-
-
+* convert to susetest
